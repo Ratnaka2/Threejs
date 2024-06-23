@@ -14,7 +14,7 @@ const mesh = new THREE.Mesh(geometry, material);
 scene.add(mesh);
 
 // Add a light to the scene
-const light = new THREE.PointLight(0xffffff, 70, 100, 1.7);
+const light = new THREE.PointLight(0xffffff, 1, 100);
 light.position.set(18, 10, 10);
 scene.add(light);
 
